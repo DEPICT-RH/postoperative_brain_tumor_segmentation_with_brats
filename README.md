@@ -13,10 +13,15 @@ argparse, numpy, nibabel and scipy.
 
 # Arguments:
 brats_file: Path to the original BraTS2021 segmentation NIfTI file.
+
 hdglio_file: Path to the HD-GLIO segmentation NIfTI file.
+
 output_file: Path to save the converted NIfTI file.
+
 --cluster_size_threshold: Minimum cluster size threshold (voxels) (default: 50).
+
 --at_fill: Fill completely AT enclosed necrosis (default: True).
+
 
 # Example:
     python convert_brats2021_to_twolabel.py ./data/brats2021_seg.nii.gz ./data/hdglio_seg.nii.gz ./output/output_twolabel_seg.nii.gz
