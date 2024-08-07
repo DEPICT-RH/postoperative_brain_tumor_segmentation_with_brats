@@ -1,7 +1,6 @@
 # postoperative_brain_tumor_segmentation_with_brats
 
-convert_brats2021_to_twolabel.py
-converts BraTS2021 segmentation files to a two-label format provided HD-GLIO segmentation files.
+convert_brats2021_to_twolabel.py converts BraTS2021 segmentation files to a two-label format provided HD-GLIO segmentation files.
 
 # Prerequisites:
 
