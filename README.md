@@ -4,6 +4,7 @@ convert_brats2021_to_twolabel.py
 converts BraTS2021 segmentation files to a two-label format provided HD-GLIO segmentation files.
 
 # Prerequisites:
+
     The python script requires the packages:
       argparse, numpy, nibabel and scipy.
     
@@ -11,6 +12,7 @@ converts BraTS2021 segmentation files to a two-label format provided HD-GLIO seg
     python convert_brats2021_to_twolabel.py <brats_file> <hdglio_file> <output_file> [--cluster_size_threshold 50] [--at_fill True]
 
 # Arguments:
+
     brats_file: Path to the original BraTS2021 segmentation NIfTI file.
     hdglio_file: Path to the HD-GLIO segmentation NIfTI file.
     output_file: Path to save the converted NIfTI file.
